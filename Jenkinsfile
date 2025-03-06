@@ -1,16 +1,4 @@
-// pipeline {
-//     agent any
 
-//     stages {
-//         stage('Hello') {
-//             steps {
-//                 echo 'Hello World'
-//                 sh 'echo "Hello from Jenkins!"'
-//                 sh 'whoami'
-//             }
-//         }
-//     }
-// }
 pipeline {
     agent any
 
